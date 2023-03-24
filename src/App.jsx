@@ -1,11 +1,15 @@
 import React from "react";
 import MenuSidebar from "./components/MenuSidebar";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
-    <div className="h-screen w-screen flex">
+    <div className="h-screen w-screen flex flex-row">
       <MenuSidebar />
-      {/* Your main content component */}
+      <div className="flex flex-col w-full">
+        <SearchBar />
+        {/* Your main content component */}
+      </div>
     </div>
   );
 }
