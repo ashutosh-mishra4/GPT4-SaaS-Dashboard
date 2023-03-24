@@ -19,7 +19,7 @@ const TaskLists = () => {
       status: "Active",
     },
     {
-      title: "Addend the meeting",
+      title: "Attend the meeting",
       tag: "Reminder",
       dueDate: "2023-03-23",
       assignedTo: "Alice",
