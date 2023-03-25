@@ -2,17 +2,17 @@ import React from "react";
 import MenuSidebar from "./components/MenuSidebar";
 import SearchBar from "./components/SearchBar";
 import TaskSection from "./components/TaskSection";
-import DealsChart from "./components/DealsChart";
+import Charts from "./components/Charts";
 
 function App() {
   return (
-    <div className="h-screen w-screen flex flex-row">
+    <div className="h-screen flex flex-row">
       <MenuSidebar />
-      <div className="flex flex-col w-full">
+      <div className="flex-1 flex flex-col">
         <SearchBar />
         <div className="flex-1 flex">
           <TaskSection />
-          <DealsChart />
+          <Charts />
         </div>
         {/* Your other main content components */}
       </div>
