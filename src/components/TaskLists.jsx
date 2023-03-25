@@ -34,9 +34,6 @@ const TaskLists = () => {
       {tasks.map((task, index) => (
         <TaskCard key={index} task={task} />
       ))}
-      <button className="mt-4 bg-indigo-500 text-white font-semibold py-2 px-4 rounded-full mx-auto block">
-        Show More
-      </button>
     </div>
   );
 };
