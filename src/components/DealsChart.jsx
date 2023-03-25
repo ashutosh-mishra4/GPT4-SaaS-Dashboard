@@ -20,7 +20,7 @@ const DealsChart = () => {
   ];
 
   return (
-    <div className="w-1/3 h-2/5 p-4 bg-white shadow rounded-md ml-6 mt-4">
+    <div className="w-96 h-80 p-4 bg-white shadow rounded-md ml-6 mt-2">
       {" "}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-semibold">Deals</h2>
